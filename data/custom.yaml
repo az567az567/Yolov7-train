@@ -1,0 +1,11 @@
+train: "C:/yolov7/yolov7dataset/train"
+val: "C:/yolov7/yolov7dataset/valid"
+test: "C:/yolov7/yolov7dataset/test"
+nc: 3 # replace classes count'mask_weared_incorrect'
+names: ['with_mask','without_mask','mask_weared_incorrect']  #0
+#names: ['with_mask','mask_weared_incorrect'] #2
+#names: ['with_mask_mask_weared_incorrect','without_mask'] #1
+#names: ['head','person']  #2
+#names: ['helmet','head']  ###
+#names: ['helmet','person','head']  #0
+#names: ['helmet','person_head']  #1
