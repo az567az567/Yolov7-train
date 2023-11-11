@@ -1,4 +1,5 @@
 # Yolov7-train
+
 The method to install Yolov7
 ------
 cd C:\yolov7  
@@ -9,6 +10,7 @@ python
 import torch  
 torch.cuda.is_available()  
 pip install numpy==1.23.1  
+
 Train the model
 ------
 conda activate  yolov7  
