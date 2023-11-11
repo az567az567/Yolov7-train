@@ -9,3 +9,8 @@ python
 import torch  
 torch.cuda.is_available()  
 pip install numpy==1.23.1  
+Train the model
+------
+conda activate  yolov7  
+cd C:\yolov7  
+python train.py --weights “C:/yolov7/yolov7.pt” --data “C:/yolov7/data/custom.yaml” --epochs 30 --workers 4 --batch-size 2 --img 640 --cfg “C:/yolov7/cfg/training/yolov7.yaml” --name yolov7 --hyp “C:/yolov7/data/hyp.scratch.p5.yaml“ --image-weights  
