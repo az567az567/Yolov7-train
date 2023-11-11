@@ -1,5 +1,6 @@
 # Yolov7-train
 The method to install Yolov7 
+/c
 cd C:\yolov7
 conda create -n yolov7 python=3.9
 pip install -r requirements.txt
